@@ -1,0 +1,30 @@
+.main{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100vh;
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100vh;
+    height: 100vh;
+}
+
+.name{
+    padding: 5px;
+}
+
+.email{
+    padding: 5px;
+}
+
+.btn{
+    padding: 5px;
+    cursor: pointer;
+}
