@@ -1,0 +1,25 @@
+GET http://localhost:3003/usuarios/
+
+###
+GET http://localhost:3003/usuarios/3
+
+###
+POST  http://localhost:3003/usuarios
+Content-Type: application/json
+
+{
+  "id": 3,
+  "nome": "liba",
+  "email": "liba@gmail.com"
+}
+
+###
+PUT  http://localhost:3003/usuarios/2
+Content-Type: application/json
+
+{
+  "nome": "braya guei"
+}
+
+###
+DELETE http://localhost:3003/usuarios/3

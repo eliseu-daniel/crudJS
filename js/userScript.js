@@ -10,6 +10,6 @@ document.addEventListener('DOMContentLoaded', function() {
         localStorage.setItem('userNome', nome)
         localStorage.setItem('userEmail', email)
 
-        window.location.href = 'src/index.html'
+        window.location.href = '../src/index.html'
     })
 })
